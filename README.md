@@ -36,5 +36,5 @@ The script uses Pandas to read the CSV file specified by the user and checks for
 
 ### Example
 ```
-python check_duplicates.py -f data.csv
+python check_duplicates.py -f output.csv
 ```
