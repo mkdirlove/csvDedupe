@@ -23,3 +23,17 @@ Arguments
 -f2, --file2: Second CSV file path.
 -o, --output: Output file path after deduplication.
 File Descriptions
+
+### Checking dupes in output file
+```bash
+python3 check_dupes.py -f output.csv
+
+Description
+The script uses Pandas to read the CSV file specified by the user and checks for duplicate rows within the DataFrame. It identifies and displays duplicate rows based on their content.
+
+Arguments
+-f or --file: Specifies the path to the input CSV file.
+Example
+```
+python check_duplicates.py -f data.csv
+```
