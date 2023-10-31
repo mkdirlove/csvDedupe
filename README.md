@@ -25,7 +25,7 @@ Replace file1.csv and file2.csv with the names of your CSV files.
 
 ### Checking dupes in output file
 ```bash
-python3 check_dupes.py -f output.csv
+   python3 check_dupes.py -f output.csv
 ```
 
 ### Description
@@ -36,5 +36,5 @@ The script uses Pandas to read the CSV file specified by the user and checks for
 
 ### Example
 ```
-python check_duplicates.py -f output.csv
+python check_dupes.py -f output.csv
 ```
