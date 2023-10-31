@@ -31,7 +31,7 @@ python3 check_dupes.py -f output.csv
 ### Description
 The script uses Pandas to read the CSV file specified by the user and checks for duplicate rows within the DataFrame. It identifies and displays duplicate rows based on their content.
 
-###Arguments
+### Arguments
 -f or --file: Specifies the path to the input CSV file.
 
 ### Example
