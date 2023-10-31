@@ -18,22 +18,23 @@ This Python script merges two CSV files and performs deduplication based on 'Fir
 Replace file1.csv and file2.csv with the names of your CSV files.
 -o specifies the output file after deduplication.
 
-Arguments
+### Arguments
 -f1, --file1: First CSV file path.
 -f2, --file2: Second CSV file path.
 -o, --output: Output file path after deduplication.
-File Descriptions
 
 ### Checking dupes in output file
 ```bash
 python3 check_dupes.py -f output.csv
+```
 
-Description
+### Description
 The script uses Pandas to read the CSV file specified by the user and checks for duplicate rows within the DataFrame. It identifies and displays duplicate rows based on their content.
 
-Arguments
+###Arguments
 -f or --file: Specifies the path to the input CSV file.
-Example
+
+### Example
 ```
 python check_duplicates.py -f data.csv
 ```
